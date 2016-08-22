@@ -1,0 +1,101 @@
+<html>
+  <!DOCTYPE html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <title>Becca's Clouds</title>
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <script src="homepage.js"></script>
+  </head>
+  <body>
+    <div id="nav-wrapper">
+      <ul class="ul-nav">
+        <li class="li-nav"><a class="active big-nav" href="index.html">Home</a></li>
+        <li class="li-nav"><a class="big-nav" href="howdocloudsform.html">How do clouds form?</a></li>
+        <li class="li-nav" onmouseover="showDropDown('cloud-classification')" onmouseout="hideDropDown('cloud-classification')"><span class="big-nav">Cloud Classification</span></li>
+        <li class="li-nav" onmouseover="showDropDown('manmade-clouds')" onmouseout="hideDropDown('manmade-clouds')"><span class="big-nav">Manmade Clouds</span></li>
+        <li class="li-nav" onmouseover="showDropDown('spectacular-clouds')" onmouseout="hideDropDown('spectacular-clouds')"><span class="big-nav">Spectacular Clouds</span></li>
+        <li class="li-nav" onmouseover="showDropDown('weather-forecasting')" onmouseout="hideDropDown('weather-forecasting')"><span class="big-nav">Weather Forecasting</span></li>
+        <li class="li-nav"><a class="big-nav" href="photo-album.html">Photo Album</a></li>
+      </ul>
+      <ul class="ul-nav">
+        <li class="li-nav"><span class="line-nav"></span></li>
+
+        <li class="li-nav"><span class="line-nav"></span></li>
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('cloud-classification')" onmouseout="hideDropDown('cloud-classification')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('cloud-classification')" onmouseout="hideDropDown('cloud-classification')" id="cloud-classification">
+            <li class="li-drop-nav"><a class="drop-nav" href="introduction.html">Introduction</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="low.html">Low</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="medium.html">Medium</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="high.html">High</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('manmade-clouds')" onmouseout="hideDropDown('manmade-clouds')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('manmade-clouds')" onmouseout="hideDropDown('manmade-clouds')" id="manmade-clouds">
+            <li class="li-drop-nav"><a class="drop-nav" href="contrails.html">Contrails</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="fumulus.html">Fumulus</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="pyrocumulus.html">Pyrocumulus</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="cloud-seeding.html">Cloud Seeding</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('spectacular-clouds')" onmouseout="hideDropDown('spectacular-clouds')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('spectacular-clouds')" onmouseout="hideDropDown('spectacular-clouds')" id="spectacular-clouds">
+            <li class="li-drop-nav"><a class="drop-nav" href="k-h-waves.html">K-H Waves</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="lenticular-clouds.html">Lenticular Clouds</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="fallstreak-holes.html">Fallstreak Holes</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="nacreous-clouds.html">Nacreous Clouds</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('weather-forecasting')" onmouseout="hideDropDown('weather-forecasting')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('weather-forecasting')" onmouseout="hideDropDown('weather-forecasting')" id="weather-forecasting">
+            <li class="li-drop-nav"><a class="drop-nav" href="weather-fronts.html">Weather Fronts</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="air-masses.html">Air Masses</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="weather-charts.html">Weather Charts</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="the-jet-stream.html">The Jet Stream</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+        <li class="li-nav"><span class="line-nav"></span></li>
+      </ul>
+
+    </div>
+    <!--<div style="background-color:red;width:40%;height:100%;display:inline-block;">Hello</div>
+    <div style="background-color:blue;width:40%;height:100%;display:inline-block;">Hello</div>-->
+    <div class="wrapper">
+      <div class="text" id="text" >
+        <h2>Pyrocumulus Clouds</h2>
+        <p>
+          These clouds form when air rich in water vapour is heated by a manmade heat source and rises in a stable thermal to condense into a cloud. They are cumuliform because they are the result of rising thermals of heat which gives them the distinctive flat base and puffy top. The wind has to be fairly weak for them to form because the rising water vapour needs to reach its dew point before being carried away. The thermals bring the water vapour up to a point where the temperature is cool enough for it to condense onto aerosols, aided by the combustion process below.
+        </p>
+        <p>
+          Examples of where these clouds could form are above erupting volcanos, bush fires and burning field stubble. Nuclear warfare will also produce a pyrocumulus type of cloud, known as a mushroom cloud, because it is the same mechanism just on a larger scale! These all produce huge amounts of heat which drives rising thermals, but as soon as they stop the clouds begin to dissipate away because there are no columns of rising water vapour to condense.
+        </p>
+        <p>
+          Really big pyrocumulus clouds that form above volcanos have strong turbulence within and this could be the reason for dry lightning to occur. It is a phenomenon that is not extensively researched and known about fully yet so it is thought that the extreme turbulence drives the charge separation process for lightning to occur. When they are this massive and produce lightning it is the time to call the cloud a pyrocumulonimbus which in my opinion is even mightier than the cumulonimbus.
+        </p>
+      </div>
+
+      <div class="images" id="images">
+
+        <table>
+          <tr>
+            <td>
+              <img src="https://raw.githubusercontent.com/beccalaw7/beccalaw7.github.io/37ab068d972e5a0ed5c1d3c14108182ee9e38330/pyrocumulus.PNG" width="70%" style="padding-left:15%">
+            </td>
+          </tr>
+        </table>
+
+
+      </div>
+    </div>
+  </body>
+</html>
