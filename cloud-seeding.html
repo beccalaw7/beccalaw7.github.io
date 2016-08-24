@@ -1,0 +1,115 @@
+<html>
+  <!DOCTYPE html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <title>Becca's Clouds</title>
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <script src="homepage.js"></script>
+  </head>
+  <body>
+    <div id="nav-wrapper">
+      <ul class="ul-nav">
+        <li class="li-nav"><a class="big-nav" href="index.html">Home</a></li>
+        <li class="li-nav"><a class="big-nav" href="howdocloudsform.html">How do clouds form?</a></li>
+        <li class="li-nav" onmouseover="showDropDown('cloud-classification')" onmouseout="hideDropDown('cloud-classification')"><span class="big-nav">Cloud Classification</span></li>
+        <li class="li-nav" onmouseover="showDropDown('manmade-clouds')" onmouseout="hideDropDown('manmade-clouds')"><span class="active big-nav">Manmade Clouds</span></li>
+        <li class="li-nav" onmouseover="showDropDown('spectacular-clouds')" onmouseout="hideDropDown('spectacular-clouds')"><span class="big-nav">Spectacular Clouds</span></li>
+        <li class="li-nav" onmouseover="showDropDown('weather-forecasting')" onmouseout="hideDropDown('weather-forecasting')"><span class="big-nav">Weather Forecasting</span></li>
+        <li class="li-nav"><a class="big-nav" href="photo-album.html">Photo Album</a></li>
+      </ul>
+      <ul class="ul-nav">
+        <li class="li-nav"><span class="line-nav"></span></li>
+
+        <li class="li-nav"><span class="line-nav"></span></li>
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('cloud-classification')" onmouseout="hideDropDown('cloud-classification')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('cloud-classification')" onmouseout="hideDropDown('cloud-classification')" id="cloud-classification">
+            <li class="li-drop-nav"><a class="drop-nav" href="introduction.html">Introduction</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="low.html">Low</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="medium.html">Medium</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="high.html">High</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('manmade-clouds')" onmouseout="hideDropDown('manmade-clouds')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('manmade-clouds')" onmouseout="hideDropDown('manmade-clouds')" id="manmade-clouds">
+            <li class="li-drop-nav"><a class="drop-nav" href="contrails.html">Contrails</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="fumulus.html">Fumulus</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="pyrocumulus.html">Pyrocumulus</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="cloud-seeding.html">Cloud Seeding</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('spectacular-clouds')" onmouseout="hideDropDown('spectacular-clouds')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('spectacular-clouds')" onmouseout="hideDropDown('spectacular-clouds')" id="spectacular-clouds">
+            <li class="li-drop-nav"><a class="drop-nav" href="k-h-waves.html">K-H Waves</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="lenticular-clouds.html">Lenticular Clouds</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="fallstreak-holes.html">Fallstreak Holes</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="nacreous-clouds.html">Nacreous Clouds</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('weather-forecasting')" onmouseout="hideDropDown('weather-forecasting')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('weather-forecasting')" onmouseout="hideDropDown('weather-forecasting')" id="weather-forecasting">
+            <li class="li-drop-nav"><a class="drop-nav" href="weather-fronts.html">Weather Fronts</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="air-masses.html">Air Masses</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="weather-charts.html">Weather Charts</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="the-jet-stream.html">The Jet Stream</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+        <li class="li-nav"><span class="line-nav"></span></li>
+      </ul>
+
+    </div>
+    <!--<div style="background-color:red;width:40%;height:100%;display:inline-block;">Hello</div>
+    <div style="background-color:blue;width:40%;height:100%;display:inline-block;">Hello</div>-->
+    <div class="wrapper">
+      <div class="text" id="text" >
+        <h2>Cloud Seeding</h2>
+        <p>
+          Cloud seeding is the process of encouraging cloud and precipitation development through releasing suitable agents into the clouds via aircraft or from the ground. It is becoming a more widely used method in countries like America where they experience warm, dry summers and need to encourage precipitation for their crops. It is also used to encourage snowfall in mountainous regions that open their slopes to skiers in the winter months. It is estimated that hail damage could be reduced by 25% using cloud seeding techniques, but now significant results have been recorded yet.
+        </p>
+        <p>
+          Natural rainfall occurs when water vapour condenses into water droplets which collide and coalesce with other droplets and get so heavy they fall as rain. The Bergeron process involves homogeneous nucleation whereby no cloud condensation nuclei (CCN) are required for the cloud to form. The saturation level must reach supersaturation by 20%, making its saturation 120%, so that the water vapour is in such large quantities that they can overcome the surface tension of the water droplets and join them. For rain to form, water droplets must grow to a million times their size by collision and coalescence throughout the cloud via strong currents.
+        </p>
+        <p>
+          When clouds don’t gain enough vertical extension and get cold enough, the Bergeron process may not take place and precipitation can be induced using cloud condensation nuclei (CCN) in heterogeneous nucleation. This is the faster method for cloud formation and development because you do not require as high levels of saturation when you introduce surfaces for water vapour to condense onto and droplets to collide with. We can stimulate this process through hygroscopic seeding agents being aerially fed to a clouds base through updrafts, or to its top. We can also feed seeding agents to a cloud from the ground which is preferable in areas with complex terrain or where low cloud formation is wanted.
+        </p>
+        <p>
+          There are two types of precipitation clouds and these are warm cloud rain and cold cloud rain. When we introduce particles to a cold cloud it is called glaciogenic seeding because these are clouds composed of mostly ice crystals. Warm clouds form in tropical areas and are usually convective so we take advantage of their strong updrafts to encourage their growth.
+        </p>
+        <p>
+          It began in 1946 by a man called Dr Vincent J Schaefer in New York who was involved in creating artificial clouds in a chilled chamber at the General Electric Laboratory. He had decided that the chamber was too warm for clouds to form so put in some dry ice to cool it and noticed that some water droplets began to form around it because it acted as a nucleus. This is the cold rain process and silver iodide is sometimes used in seeding too due to its similar structure to ice crystals.
+        </p>
+        <p>
+          To encourage the warm rain, calcium chloride is used as a nucleus but common salt and water droplets may also be used to encourage cloud growth.
+        </p>
+      </div>
+
+      <div class="images" id="images">
+
+        <table>
+          <tr>
+            <td>
+              <img src="" width="100%" style="padding-left:15%">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="" width="100%" style="padding-left:15%">
+            </td>
+          </tr>
+        </table>
+
+
+      </div>
+    </div>
+  </body>
+</html>
