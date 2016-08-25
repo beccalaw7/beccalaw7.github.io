@@ -1,0 +1,107 @@
+<html>
+  <!DOCTYPE html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <title>Becca's Clouds</title>
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <script src="homepage.js"></script>
+  </head>
+  <body>
+    <div id="nav-wrapper">
+      <ul class="ul-nav">
+        <li class="li-nav"><a class="big-nav" href="index.html">Home</a></li>
+        <li class="li-nav"><a class="big-nav" href="howdocloudsform.html">How do clouds form?</a></li>
+        <li class="li-nav" onmouseover="showDropDown('cloud-classification')" onmouseout="hideDropDown('cloud-classification')"><span class="big-nav">Cloud Classification</span></li>
+        <li class="li-nav" onmouseover="showDropDown('manmade-clouds')" onmouseout="hideDropDown('manmade-clouds')"><span class="active big-nav">Manmade Clouds</span></li>
+        <li class="li-nav" onmouseover="showDropDown('spectacular-clouds')" onmouseout="hideDropDown('spectacular-clouds')"><span class="big-nav">Spectacular Clouds</span></li>
+        <li class="li-nav" onmouseover="showDropDown('weather-forecasting')" onmouseout="hideDropDown('weather-forecasting')"><span class="big-nav">Weather Forecasting</span></li>
+        <li class="li-nav"><a class="big-nav" href="photo-album.html">Photo Album</a></li>
+      </ul>
+      <ul class="ul-nav">
+        <li class="li-nav"><span class="line-nav"></span></li>
+
+        <li class="li-nav"><span class="line-nav"></span></li>
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('cloud-classification')" onmouseout="hideDropDown('cloud-classification')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('cloud-classification')" onmouseout="hideDropDown('cloud-classification')" id="cloud-classification">
+            <li class="li-drop-nav"><a class="drop-nav" href="introduction.html">Introduction</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="low.html">Low</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="medium.html">Medium</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="high.html">High</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('manmade-clouds')" onmouseout="hideDropDown('manmade-clouds')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('manmade-clouds')" onmouseout="hideDropDown('manmade-clouds')" id="manmade-clouds">
+            <li class="li-drop-nav"><a class="drop-nav" href="contrails.html">Contrails</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="fumulus.html">Fumulus</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="pyrocumulus.html">Pyrocumulus</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="cloud-seeding.html">Cloud Seeding</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('spectacular-clouds')" onmouseout="hideDropDown('spectacular-clouds')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('spectacular-clouds')" onmouseout="hideDropDown('spectacular-clouds')" id="spectacular-clouds">
+            <li class="li-drop-nav"><a class="drop-nav" href="k-h-waves.html">K-H Waves</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="asperitas-clouds.html">Asperitas Clouds</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="fallstreak-holes.html">Fallstreak Holes</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="nacreous-clouds.html">Nacreous Clouds</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('weather-forecasting')" onmouseout="hideDropDown('weather-forecasting')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('weather-forecasting')" onmouseout="hideDropDown('weather-forecasting')" id="weather-forecasting">
+            <li class="li-drop-nav"><a class="drop-nav" href="weather-fronts.html">Weather Fronts</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="air-masses.html">Air Masses</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="weather-charts.html">Weather Charts</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="the-jet-stream.html">The Jet Stream</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+        <li class="li-nav"><span class="line-nav"></span></li>
+      </ul>
+
+    </div>
+    <!--<div style="background-color:red;width:40%;height:100%;display:inline-block;">Hello</div>
+    <div style="background-color:blue;width:40%;height:100%;display:inline-block;">Hello</div>-->
+    <div class="wrapper">
+      <div class="text" id="text" >
+        <h2>Kelvin-Helmholtz Waves (K-H Waves)</h2>
+        <p>
+          These clouds are a rare, short-lived cloud formation that form in stable starting conditions where both wind speed and direction are constant. When strong horizontal winds disturb the boundary between two layers of air, a warm air mass with a cooler air mass below, the upper layer may begin to move at a faster rate than the lower layer of cloud which produces wave crests that move ahead of the main body. It is often cirrus or cirrostratus clouds that produce these turbulent clouds and you can usually spot the two distinct layers of cloud moving at different speeds.
+        </p>
+        <p>
+          The phenomenon is named after the two nineteenth century physicists who discovered the clouds and studied them: William Thomson, 1st Baron Kelvin (1824-1907) from Belfast, and the German physicist Hermann von Helmholtz (1821-1894).
+        </p>
+
+      </div>
+
+      <div class="images" id="images">
+
+        <table>
+          <tr>
+            <td>
+              <img src="https://raw.githubusercontent.com/beccalaw7/beccalaw7.github.io/d8b7a8f5b33a8d6dfe9ba99899b8777524caecb4/K-H%20Wave%20formation.PNG" width="70%" style="padding-left:15%">
+              <p style="padding-left:15%">
+                Formation of a K-H Wave.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="" width="70%" style="padding-left:15%">
+            </td>
+          </tr>
+        </table>
+
+
+      </div>
+    </div>
+  </body>
+</html>
