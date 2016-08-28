@@ -1,0 +1,143 @@
+<html>
+  <!DOCTYPE html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <title>Becca's Clouds</title>
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <script src="homepage.js"></script>
+  </head>
+  <body>
+    <div id="nav-wrapper">
+      <ul class="ul-nav">
+        <li class="li-nav"><a class="big-nav" href="index.html">Home</a></li>
+        <li class="li-nav"><a class="big-nav" href="howdocloudsform.html">How do clouds form?</a></li>
+        <li class="li-nav" onmouseover="showDropDown('cloud-classification')" onmouseout="hideDropDown('cloud-classification')"><span class="big-nav">Cloud Classification</span></li>
+        <li class="li-nav" onmouseover="showDropDown('manmade-clouds')" onmouseout="hideDropDown('manmade-clouds')"><span class="big-nav">Manmade Clouds</span></li>
+        <li class="li-nav" onmouseover="showDropDown('spectacular-clouds')" onmouseout="hideDropDown('spectacular-clouds')"><span class="big-nav">Spectacular Clouds</span></li>
+        <li class="li-nav" onmouseover="showDropDown('weather-forecasting')" onmouseout="hideDropDown('weather-forecasting')"><span class="active big-nav">Weather Forecasting</span></li>
+        <li class="li-nav"><a class="big-nav" href="photo-album.html">Photo Album</a></li>
+      </ul>
+      <ul class="ul-nav">
+        <li class="li-nav"><span class="line-nav"></span></li>
+
+        <li class="li-nav"><span class="line-nav"></span></li>
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('cloud-classification')" onmouseout="hideDropDown('cloud-classification')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('cloud-classification')" onmouseout="hideDropDown('cloud-classification')" id="cloud-classification">
+            <li class="li-drop-nav"><a class="drop-nav" href="introduction.html">Introduction</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="low.html">Low</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="medium.html">Medium</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="high.html">High</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('manmade-clouds')" onmouseout="hideDropDown('manmade-clouds')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('manmade-clouds')" onmouseout="hideDropDown('manmade-clouds')" id="manmade-clouds">
+            <li class="li-drop-nav"><a class="drop-nav" href="contrails.html">Contrails</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="fumulus.html">Fumulus</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="pyrocumulus.html">Pyrocumulus</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="cloud-seeding.html">Cloud Seeding</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('spectacular-clouds')" onmouseout="hideDropDown('spectacular-clouds')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('spectacular-clouds')" onmouseout="hideDropDown('spectacular-clouds')" id="spectacular-clouds">
+            <li class="li-drop-nav"><a class="drop-nav" href="k-h-waves.html">K-H Waves</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="asperitas-clouds.html">Asperitas Clouds</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="fallstreak-holes.html">Fallstreak Holes</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="nacreous-clouds.html">Nacreous Clouds</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('weather-forecasting')" onmouseout="hideDropDown('weather-forecasting')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('weather-forecasting')" onmouseout="hideDropDown('weather-forecasting')" id="weather-forecasting">
+            <li class="li-drop-nav"><a class="drop-nav" href="weather-fronts.html">Weather Fronts</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="air-masses.html">Air Masses</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="weather-forecasts.html">Weather Forecasts</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="the-jet-stream.html">The Jet Stream</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+        <li class="li-nav"><span class="line-nav"></span></li>
+      </ul>
+
+    </div>
+    <!--<div style="background-color:red;width:40%;height:100%;display:inline-block;">Hello</div>
+    <div style="background-color:blue;width:40%;height:100%;display:inline-block;">Hello</div>-->
+    <div class="wrapper">
+      <div class="text" id="text" >
+        <h2>Weather Fronts</h2>
+        <p>
+        A weather front marks the boundary between two air masses that have different properties so they produce a reaction zone which is known as a front. A strong weather front is one where the differences in temperature are obvious, whereas a weaker front may only see a slight change in temperature. For example a warm air mass coming into contact with a cold air mass would create an intense boundary change, but air masses with very similar temperatures would produce a weak front.
+        </p>
+        <p>
+          Due to our position, the UK receives many different frontal systems and the varied weather that comes with them. Most commonly we get the systems that form over the Atlantic Ocean, to the west of the UK, and move eastwards.
+        </p>
+        <h2>Cold Fronts</h2>
+        <p>
+          Cold fronts are shown on a weather map by a blue line with triangles on, like icicles, which point in the direction that the cold air is moving. A cold front will push underneath warmer air because it is much denser than the warm air. This means that colder air replaces the warmer air at the surface and can be spotted by barometers because the pressure will rise. Cold fronts often bring deep layered clouds as the warm, moist air is forced to rise, cool and condense into clouds. These will usually produce lots of heavy rain in bursts, perhaps even with thunderstorms and hail included.
+        </p>
+        <p>
+          Once the cold front moves on you are left with clear, blue skies but unfortunately not for long because if this cooler air is warmed up it soon rises and produces convective clouds such as cumulus and cumulonimbus which can produce very heavy rain showers.
+        </p>
+        <h2>Warm Fronts</h2>
+        <p>
+          Warm fronts are shown on weather maps by a red line with semi circles on, like half suns, which point in the direction that the warm air is moving. Warm air is less dense than cooler air so the warmer air will push in from the top and gradually replace the cold air at the surface. Warm fronts are easier to spot because the warm air is first experienced in the upper troposphere producing high cirrus clouds due to the introduction of warm moist air to condense into clouds. As the front approaches, the clouds thicken and the air pressure decreases because warm air is less dense than cold air. This warm front initially brings a short burst of heavy rain then produces long lasting drizzly rain. When it clears, it will never usually clear properly so you will be left with cloudy conditions.
+        </p>
+        <p>
+          A warm front gets its name because a warm, moist airmass is replacing a cold, dry one so it doesn’t necessarily mean that the weather will be nice and warm!
+        </p>
+        <h2>Occluded Fronts</h2>
+        <p>
+          An occluded front is shown on a weather map as a purple line of both triangles and semi-circles because they are a complex front. ‘Occluded’ means ‘hidden’ and when a cold front manages to catch up a warm front it creates an occlusion because the cold, dense air pushes in underneath the warm air so the warm air becomes hidden. These fronts tend to have a combination of characteristics from cold and warm fronts so require monitoring to predict their actual outcomes; although, heavy rain will usually fall where the occlusion is.
+        </p>
+      </div>
+
+      <div class="images" id="images">
+
+        <table>
+          <tr>
+            <td>
+              <img src="https://raw.githubusercontent.com/beccalaw7/beccalaw7.github.io/3d85b2a445107b682f5b4e9fe1a026ed57a28dc3/UK%20air%20masses.PNG" width="70%" style="padding-left:15%">
+              <p style="padding-left:15%">
+                The variations in air we get here in the UK.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="https://raw.githubusercontent.com/beccalaw7/beccalaw7.github.io/3d85b2a445107b682f5b4e9fe1a026ed57a28dc3/Cold%20front.PNG" width="70%" style="padding-left:15%">
+              <p style="padding-left:15%">
+                Cold front.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="https://raw.githubusercontent.com/beccalaw7/beccalaw7.github.io/3d85b2a445107b682f5b4e9fe1a026ed57a28dc3/Warm%20front.PNG" width="70%" style="padding-left:15%">
+              <p style="padding-left:15%">
+                Warm front.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="https://raw.githubusercontent.com/beccalaw7/beccalaw7.github.io/3d85b2a445107b682f5b4e9fe1a026ed57a28dc3/Occluded%20front.PNG" width="70%" style="padding-left:15%">
+              <p style="padding-left:15%">
+                Occluded front.
+              </p>
+            </td>
+          </tr>
+        </table>
+
+
+      </div>
+    </div>
+  </body>
+</html>
