@@ -1,0 +1,144 @@
+<html>
+  <!DOCTYPE html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <title>Becca's Clouds</title>
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <script src="homepage.js"></script>
+  </head>
+  <body>
+    <div id="nav-wrapper">
+      <ul class="ul-nav">
+        <li class="li-nav"><a class="big-nav" href="index.html">Home</a></li>
+        <li class="li-nav"><a class="big-nav" href="howdocloudsform.html">How do clouds form?</a></li>
+        <li class="li-nav" onmouseover="showDropDown('cloud-classification')" onmouseout="hideDropDown('cloud-classification')"><span class="big-nav">Cloud Classification</span></li>
+        <li class="li-nav" onmouseover="showDropDown('manmade-clouds')" onmouseout="hideDropDown('manmade-clouds')"><span class="big-nav">Manmade Clouds</span></li>
+        <li class="li-nav" onmouseover="showDropDown('spectacular-clouds')" onmouseout="hideDropDown('spectacular-clouds')"><span class="big-nav">Spectacular Clouds</span></li>
+        <li class="li-nav" onmouseover="showDropDown('weather-forecasting')" onmouseout="hideDropDown('weather-forecasting')"><span class="active big-nav">Weather Forecasting</span></li>
+        <li class="li-nav"><a class="big-nav" href="photo-album.html">Photo Album</a></li>
+      </ul>
+      <ul class="ul-nav">
+        <li class="li-nav"><span class="line-nav"></span></li>
+
+        <li class="li-nav"><span class="line-nav"></span></li>
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('cloud-classification')" onmouseout="hideDropDown('cloud-classification')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('cloud-classification')" onmouseout="hideDropDown('cloud-classification')" id="cloud-classification">
+            <li class="li-drop-nav"><a class="drop-nav" href="introduction.html">Introduction</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="low.html">Low</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="medium.html">Medium</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="high.html">High</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('manmade-clouds')" onmouseout="hideDropDown('manmade-clouds')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('manmade-clouds')" onmouseout="hideDropDown('manmade-clouds')" id="manmade-clouds">
+            <li class="li-drop-nav"><a class="drop-nav" href="contrails.html">Contrails</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="fumulus.html">Fumulus</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="pyrocumulus.html">Pyrocumulus</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="cloud-seeding.html">Cloud Seeding</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('spectacular-clouds')" onmouseout="hideDropDown('spectacular-clouds')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('spectacular-clouds')" onmouseout="hideDropDown('spectacular-clouds')" id="spectacular-clouds">
+            <li class="li-drop-nav"><a class="drop-nav" href="k-h-waves.html">K-H Waves</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="asperitas-clouds.html">Asperitas Clouds</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="fallstreak-holes.html">Fallstreak Holes</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="nacreous-clouds.html">Nacreous Clouds</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+
+        <li class="li-nav">
+          <span class="line-nav" onmouseover="showDropDown('weather-forecasting')" onmouseout="hideDropDown('weather-forecasting')"></span>
+          <ul class="ul-nav hide-dropdown" onmouseover="showDropDown('weather-forecasting')" onmouseout="hideDropDown('weather-forecasting')" id="weather-forecasting">
+            <li class="li-drop-nav"><a class="drop-nav" href="weather-fronts.html">Weather Fronts</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="air-masses.html">Air Masses</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="weather-forecasts.html">Weather Forecasts</a></li>
+            <li class="li-drop-nav"><a class="drop-nav" href="the-jet-stream.html">The Jet Stream</a></li>
+            <li class="li-drop-nav"><span class="line-nav"></span></li>
+          </ul>
+        </li>
+        <li class="li-nav"><span class="line-nav"></span></li>
+      </ul>
+
+    </div>
+    <!--<div style="background-color:red;width:40%;height:100%;display:inline-block;">Hello</div>
+    <div style="background-color:blue;width:40%;height:100%;display:inline-block;">Hello</div>-->
+    <div class="wrapper">
+      <div class="text" id="text" >
+        <h2>Weather Forecasts</h2>
+        <p>
+          The first steps in creating a weather forecast involve collecting observations, assimilation, numerical models and the supercomputer.
+        </p>
+        <h2>Observations</h2>
+        <p>
+          Observations are made 24 hours a day and The Met Office alone receive 500,000 observations per day to try and sort out. These are measurements of temperature, pressure, wind speed/direction and humidity. Data is collected in a large range, from 36,000km in the atmosphere to 2000m below sea level.
+        </p>
+        <p>
+          Surface data is collected from land based weather stations and marine readings come from buoys and ships. Wind is measured 10m above land and from sea backscattering using satellites. Weather stations are placed around 40km apart on level ground away from trees or steep land that could affect the readings. They collect data every minute using their sensors, which is then transmitted to the HQ in Exeter for processing. Extra data can now be collected and recorded by the general public via BBC Weather Watchers and The Met Office WOW (Weather Observations Website).
+        </p>
+        <p>
+          Some weather systems can escape surface weather stations because they form and occur within the 40km radius, missing the surrounding stations. Isolated thunderstorms are examples of this, but can be picked up by geostationary satellites that orbit the Earth and get a very good view of the planets weather systems. This is also useful for working out the cloud top height and where a volcanic ash cloud is heading next.
+        </p>
+        <p>
+          A radiosonde is an observational unit based on a weather balloon that takes readings from up to 100 levels of the atmosphere in one area. Its readings include wind speed/direction, dew point temperature, humidity and it is able to carry out vertical averaging which maps the reports onto computer models. Aircraft provide observations of temperature, wind and pressure through automatic and manual machinery on board.
+        </p>
+        <h2>Assimilation</h2>
+        <p>
+          We cannot measure the atmospheric conditions on all points of the Earth 24 hours a day because there are many inaccessible places and oceans that wouldn’t be very cost effective or time efficient to collect data from. Instead, meteorologists use the observations sent to them, removing any anomalies, to fill in the gaps and formulate an idea of what the current atmospheric conditions are doing. Nowcasting is a newly developed assimilation system that quickly collects the observations together and creates short notice weather warnings on current events such as a nowcast for rainfall for flooding.
+        </p>
+        <p>
+          Ensemble forecasting involves running a computer model several times with slightly different current observation conditions to formulate a forecast. They are most reliable when used for just 24 hours in advance because uncertainties are accounted for and these increase with time.
+        </p>
+        <p>
+          Sources of uncertainty in weather forecasting include the initial conditions and the computer model itself. Some people’s jobs are to investigate and carry out reducing uncertainties in these areas which lead to more accurate forecasts in the future.
+        </p>
+        <p>
+          Probability forecasts are created using a data range or percentages. For a specific element, such as temperature, a range of values can be given and the likelihood of it being that temperature will fall in that range. The range bars (red) grow with time because the uncertainties increase.
+        </p>
+        <p>
+          The probability of rain occurring (or any other event) is estimated by looking at the proportion of ensemble members who have forecast it. So if 6 of 24 members predict more than 5mm of rain at a certain location in a specific time period then there would be a 25% chance of it raining. Probability forecasting requires many different forecasts being collected together to form a best estimate of what could happen in the next x hours. This does provide probability, but it is still very inaccurate and requires support from further assimilation.
+        </p>
+        <p>
+          Convective scale data assimilation uses current conditions within 1-4km grids to ‘fill in the gaps’ and determine the immediate atmospheric conditions. This is particularly useful for severe weather prediction and movement, and warning the public about it. Earth system data analysis involves putting the observations into historical context and into context with the rest of the world. This increases the reliability of the data.
+        </p>
+        <h2>Numerical Modelling</h2>
+        <p>
+          Mathematical models are important in collecting the assimilated data together to assess what the current atmospheric conditions are then predicting what is to come within the next few hours, 24 hours, 4 days and even weeks. However, the uncertainty increases with time so the reliability decreases with time also. Atmospheric variables are required for each box on the three dimensional grid that is created over the Earth’s surface such as temperature, pressure, wind speed/direction, humidity.
+        </p>
+        <h2>Supercomputers</h2>
+        <p>
+          It was Lewis Fry Richardson, an English Mathematician, who thought of the idea of using dynamic equations to make weather forecasts in 1922. Unfortunately in a pre-computer age this meant an estimated 64,000 people would have to be performing calculations in order for a useful forecast to be produced. The Met Office progressed in the fifties because they got their first electrical desk calculator which was very high tech at the time!
+        </p>
+        <p>
+          The first proper computer owned by The Met Office was able to do 30,000 calculations per second and was nicknamed Meteor.
+        </p>
+        <p>
+          The new Met Office supercomputer can do 16,000 trillion calculations per second and it will run an atmospheric model with more than a million lines of code. It requires 2.7 MW of electricity to run but it should be noted that the power consumption of this beast is minimal in comparison to the socio-economic benefits the improved weather forecasts brings, including reduced CO2 emissions.
+        </p>
+        <p>
+          Aviation forecasts using the supercomputer save 20 million tonnes of CO2 a year by ensuring aeroplanes fly the most efficient routes. The Met Office save around 74 lives a year through their severe weather warning services and marine/mountain forecasts. They also save the UK economy more than £260 million a year.
+        </p>
+      </div>
+
+      <div class="images" id="images">
+
+        <table>
+          <tr>
+            <td>
+              <img src="" width="85%" style="padding-left:15%">
+            </td>
+          </tr>
+        </table>
+
+
+      </div>
+    </div>
+  </body>
+</html>
