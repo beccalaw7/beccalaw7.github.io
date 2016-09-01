@@ -53,7 +53,9 @@ a {
 
 .back {
   background-color: #C0C0C0;
-  display: block;
+  display: inline-block;
+  margin-left: 10%;
+  height: 50px;
   text-decoration: none;
   text-align: center;
   font-family: "Lato", sans-serif;
