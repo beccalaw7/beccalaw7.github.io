@@ -35,7 +35,6 @@ ol{
   font-size: 60px;
   margin-left: 5%;
    font-family: "Lato", sans-serif;
-   color: black;
 }
 
 .hidemenu{
@@ -45,6 +44,7 @@ ol{
 
 .li-nav{
   display: none;
+  background-color: #005B9A;
 }
 
 .nav {
@@ -53,13 +53,12 @@ ol{
      font-size: 60px;
      position: absolute;
      margin-left: 5%;
-     width: 80%;
+     width: 85%;
      font-family: "Lato", sans-serif;
      list-style-type: none;
      text-align: center;
      float: left;
      background-color: #C0C0C0;
-     color: black;
 }
 
 li{
@@ -70,4 +69,5 @@ li{
 li a{
   padding: 40px 60px;
   display:block;
+  color:black;
 }
