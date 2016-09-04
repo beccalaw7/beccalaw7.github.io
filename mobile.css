@@ -7,6 +7,7 @@ p {
 h2 {
   font-size: 80px;
   margin-left: 5%;
+  margin-top: 28%;
 }
 
 h3{
@@ -53,7 +54,7 @@ ol{
      font-size: 60px;
      position: absolute;
      margin-left: 5%;
-     width: 85%;
+     width: 88%;
      font-family: "Lato", sans-serif;
      list-style-type: none;
      text-align: center;
