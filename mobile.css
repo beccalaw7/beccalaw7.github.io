@@ -41,9 +41,8 @@ ol{
 }
 
 .li-nav{
-  display: ;
-  margin-top: 5%;
-  font-size: 30px;
+  display: none;
+  font-size: 60px;
   position: absolute;
 }
 
