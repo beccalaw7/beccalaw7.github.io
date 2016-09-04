@@ -39,3 +39,10 @@ ol{
   display: block;
   font-size: 60px;
 }
+
+.li-nav{
+  display:none;
+  margin-top: 5%;
+  font-size: 30px;
+  position: absolute;
+}
