@@ -41,8 +41,18 @@ ol{
 }
 
 .li-nav{
-  display: block;
+  display: ;
   margin-top: 5%;
   font-size: 30px;
   position: absolute;
+}
+
+li{
+  float: none;
+  border-right: 0px solid white;
+}
+
+li a{
+  padding: 40px 60px;
+  display:block;
 }
