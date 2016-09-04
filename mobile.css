@@ -7,7 +7,6 @@ p {
 h2 {
   font-size: 80px;
   margin-left: 5%;
-  margin-top: 28%;
 }
 
 h3{
@@ -71,4 +70,8 @@ li a{
   padding: 40px 60px;
   display:block;
   color:black;
+}
+
+.body{
+  margin-top: 28%;
 }
