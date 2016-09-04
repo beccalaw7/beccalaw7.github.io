@@ -31,7 +31,7 @@ ol{
   margin-top: %5;
   display: inline;
   background-color: #C0C0C0;
-  position:absolute;
+  position: absolute;
   font-size: 60px;
 }
 
@@ -41,7 +41,7 @@ ol{
 }
 
 .li-nav{
-  display:none;
+  display: block;
   margin-top: 5%;
   font-size: 30px;
   position: absolute;
