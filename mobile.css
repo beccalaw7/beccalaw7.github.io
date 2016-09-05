@@ -36,12 +36,12 @@ ol{
 
 .mobilenav{
   padding: 50px 50px;
-  margin-top: %5;
+  margin-top: -22%;
   display: inline;
   background-color: #C0C0C0;
   position: absolute;
   font-size: 60px;
-  margin-left: -22%;
+  margin-left: 5%;
    font-family: "Lato", sans-serif;
 }
 
