@@ -41,13 +41,14 @@ ol{
   background-color: #C0C0C0;
   position: absolute;
   font-size: 60px;
-  margin-left: 5%;
+  margin-left: -22%;
    font-family: "Lato", sans-serif;
 }
 
 .hidemenu{
   display: block;
   font-size: 60px;
+  position: absolute;
 }
 
 .li-nav{
@@ -85,7 +86,7 @@ li a{
 }
 
 .images {
-  width:10%;
+  width:25%;
   float: left;
   height: calc(100% - (100px));
 }
