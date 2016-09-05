@@ -8,10 +8,13 @@ p {
   margin-left: 5%;
 }
 
+body {
+  margin-top: 28%;
+}
+
 h2 {
   font-size: 80px;
   margin-left: 5%;
-  margin-top: 28%;
 }
 
 h3{
