@@ -37,8 +37,8 @@ ol{
 .mobilenav{
   padding: 50px 50px;
   margin-top: -22%;
-  display: inline;
   background-color: #C0C0C0;
+  display: inline;
   position: absolute;
   font-size: 60px;
   margin-left: 5%;
@@ -57,7 +57,7 @@ ol{
 }
 
 .nav {
-     margin-top: 4%;
+     margin-top: 21%;
      display: none;
      font-size: 60px;
      position: absolute;
