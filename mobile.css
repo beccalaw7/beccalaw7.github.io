@@ -49,25 +49,14 @@ ol{
 }
 
 .hidemenu{
-     display: none;
-     margin-top: -15%;
-     font-size: 60px;
-     position: absolute;
-     margin-left: 5%;
-     width: 88%;
-     font-family: "Lato", sans-serif;
-     list-style-type: none;
-     text-align: center;
-     float: left;
-     background-color: #C0C0C0;
+  display: block;
+  background-color: #005B9A;
 }
 
 .li-nav{
   display: none;
-  background-color:
+  background-color: #005B9A;
 }
-
-#005B9A;
 
 .nav {
      display: none;
