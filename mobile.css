@@ -97,4 +97,5 @@ li a{
 
 .text {
   max-width: 100%;
+  min-width: 100%;
 }
