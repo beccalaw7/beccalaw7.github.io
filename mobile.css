@@ -85,6 +85,7 @@ li a{
 .images {
   float: right;
   width: 35%;
+  margin-right: 5px;
 }
 
 .hidemenu {
