@@ -99,3 +99,8 @@ li a{
   max-width: 100%;
   min-width: 70%;
 }
+
+
+img {
+  float: right;
+}
