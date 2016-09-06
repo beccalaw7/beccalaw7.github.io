@@ -88,6 +88,10 @@ li a{
   margin-top: 28%;
 }
 
+.images-down {
+  position: static;
+}
+
 .images {
   width: 35%;
   float: right;
