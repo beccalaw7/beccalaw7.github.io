@@ -3,7 +3,7 @@ html {
 }
 
 p {
-  font-size: 50px;
+  font-size: 30px;
   width: 60%;
   margin-left: 5%;
 }
@@ -13,13 +13,13 @@ body {
 }
 
 h2 {
-  font-size: 80px;
+  font-size: 10px;
   width: 60%;
   margin-left: 5%;
 }
 
 h3{
-  font-size: 65px;
+  font-size: 45px;
   width: 60%;
   margin-left: 5%;
 }
@@ -82,7 +82,7 @@ li a{
 }
 
 .images {
-  width: 40px;
+  width: 60%;
   float: right;
 }
 
