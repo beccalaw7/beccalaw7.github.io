@@ -94,3 +94,8 @@ li a{
 .hidemenu {
     padding: 40px 60px;
 }
+
+.text {
+  max-width: 100%;
+  min-width: 100%;
+}
