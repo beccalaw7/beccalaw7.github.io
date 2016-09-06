@@ -81,14 +81,9 @@ li a{
   margin-top: 28%;
 }
 
-.images-down {
-  position: fixed;
-}
 
 .images {
   width: 35%;
-  float: right;
-  height: calc(100% - (100px));
 }
 
 .hidemenu {
@@ -98,9 +93,4 @@ li a{
 .text {
   max-width: 100%;
   min-width: 70%;
-}
-
-
-img {
-  float: right;
 }
