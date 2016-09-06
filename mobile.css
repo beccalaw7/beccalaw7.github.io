@@ -51,6 +51,7 @@ ol{
 .hidemenu{
   display: block;
   font-size: 60px;
+  text-align: center;
 }
 
 .li-nav{
@@ -60,7 +61,7 @@ ol{
 
 .nav {
      display: none;
-     margin-top: 5%;
+     margin-top: -10%;
      font-size: 60px;
      position: absolute;
      margin-left: 5%;
@@ -88,6 +89,7 @@ li a{
 }
 
 .images-down {
+  position: fixed;
 }
 
 .images {
