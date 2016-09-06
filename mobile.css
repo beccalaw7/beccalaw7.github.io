@@ -54,7 +54,7 @@ ol{
 
 .nav {
      display: none;
-     margin-top: -20%;
+     margin-top: -23%;
      font-size: 60px;
      position: absolute;
      margin-left: 5%;
@@ -93,8 +93,4 @@ li a{
 
 .hidemenu {
     padding: 40px 60px;
-}
-
-.text {
-  width: 100%
 }
