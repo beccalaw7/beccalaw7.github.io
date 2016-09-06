@@ -50,8 +50,8 @@ ol{
 
 .hidemenu{
   display: block;
+  margin-top: -32%;
   font-size: 60px;
-  position: absolute;
 }
 
 .li-nav{
@@ -89,7 +89,6 @@ li a{
 }
 
 .images-down {
-  position: static;
 }
 
 .images {
