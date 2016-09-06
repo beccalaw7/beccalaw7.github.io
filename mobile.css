@@ -86,9 +86,14 @@ img {
 }
 
 .images {
-max-width: 100px
+  max-width: 100px;
+  float: right;
 }
 
 .hidemenu {
-    padding: 40px 60px;
+  padding: 40px 60px;
+}
+
+.text {
+  float: right;
 }
