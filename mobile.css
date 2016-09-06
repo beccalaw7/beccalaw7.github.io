@@ -96,5 +96,5 @@ li a{
 }
 
 .text {
-  width: 80%;
+  max-width: 100%;
 }
