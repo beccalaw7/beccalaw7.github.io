@@ -4,7 +4,7 @@ html {
 
 p {
   font-size: 50px;
-  max-width: 100%;
+  width: 75%;
   margin-left: 5%;
 }
 
@@ -14,11 +14,13 @@ body {
 
 h2 {
   font-size: 80px;
+  width: 75%;
   margin-left: 5%;
 }
 
 h3{
   font-size: 65px;
+  width: 75%;
   margin-left: 5%;
 }
 
@@ -29,6 +31,7 @@ ul{
 }
 
 ol{
+
   font-size: 50px;
   max-width: 100%;
   margin-left: 5%;
@@ -47,6 +50,7 @@ ol{
 
 .hidemenu{
   display: block;
+  margin-top: -28%;
   font-size: 60px;
   position: absolute;
 }
@@ -87,6 +91,6 @@ li a{
 
 .images {
   width:25%;
-  float: left;
+  float: right;
   height: calc(100% - (100px));
 }
