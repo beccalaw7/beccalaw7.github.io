@@ -91,6 +91,10 @@ li a{
   height: calc(100% - (100px));
 }
 
+.hidemenu {
+    padding: 40px 60px;
+}
+
 .text {
   width: 100%
 }
