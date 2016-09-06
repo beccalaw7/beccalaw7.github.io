@@ -83,6 +83,7 @@ li a{
 
 
 .images {
+  float: right;
   width: 35%;
 }
 
@@ -93,8 +94,4 @@ li a{
 .text {
   max-width: 100%;
   min-width: 70%;
-}
-
-img {
-  float: right;
 }
