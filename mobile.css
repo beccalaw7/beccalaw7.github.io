@@ -48,14 +48,8 @@ ol{
    font-family: "Lato", sans-serif;
 }
 
-.hidemenu{
-  display: block;
-  background-color: #005B9A;
-}
-
 .li-nav{
   display: none;
-  background-color: #005B9A;
 }
 
 .nav {
