@@ -81,17 +81,14 @@ li a{
   margin-top: 28%;
 }
 
+img {
+  max-width: 100%;
+}
 
 .images {
-  float: right;
-  width: 60%;
+max-width: 100px
 }
 
 .hidemenu {
     padding: 40px 60px;
-}
-
-.text {
-  max-width: 100%;
-  min-width: 70%;
 }
